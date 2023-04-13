@@ -1,0 +1,157 @@
+/* loading */
+
+#loading {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-image: url(../img/bkg-orange.jpg);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#spinner {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#spinner img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../img/bkg-orange.jpg);
+    background-color: #ffffff00;
+    background-size: cover;
+  }
+  
+  .background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+  
+    background-color: #000000d2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 75px rgb(0, 0, 0);
+    border: 7px solid #f47524;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    height: 80px;
+  }
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .textbox i {
+    width: 26px;
+    float: left;
+    text-align: center;
+  }
+  
+  .textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+  }
+  
+  .login-btn {
+    margin-top: 20px;
+    background-color: #f47524;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 20px;
+    border-radius: 25px;
+    float: left;
+    width: 45%;
+  }
+  
+  .login-btn:hover {
+    background-color: #000000;
+  }
+  
+  .register-btn {
+    margin-top: 20px;
+    background-color: #f47524;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 20px;
+    border-radius: 25px;
+    float: right;
+    width: 45%;
+  }
+  
+  .register-btn:hover {
+    background-color: #000000;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .form-group input {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #191d33;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px #f47524;
+  }
+  
